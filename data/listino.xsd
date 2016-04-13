@@ -1,0 +1,54 @@
+<?xml version="1.0"?>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema"
+elementFormDefault="qualified">
+
+	<xs:element name="listino" type="TListino"/>
+		
+		<xs:complexType name="TListino">
+			<xs:sequence maxOccurs="unbounded">
+				<xs:element name="categoria" type="TCategoria"/>
+			</xs:sequence>	
+		</xs:complexType>
+		
+		<xs:complexType name="TCategoria">
+			<xs:sequence maxOccurs="unbounded">
+				<xs:choice>
+					<xs:element name="pizza" type="TPizza"/>
+					<xs:element name="fritto" type="TFritto"/>
+				</xs:choice>
+			</xs:sequence>
+			<xs:attribute name="nome" type="xs:string"/>
+			<xs:attribute name="id" type="xs:string"/>
+		</xs:complexType>
+								
+		<xs:complexType name="TPizza">
+			<xs:sequence>
+				<xs:element name="prezzo" type="TPrezzo"/>
+				<xs:element name="ingredienti" type="TIngredienti"/>
+			</xs:sequence>
+			<xs:attribute name="nome" type="xs:string"/>
+		</xs:complexType>
+		
+		<xs:complexType name="TPrezzo">
+			<xs:simpleContent>
+				<xs:extension base="xs:decimal">
+					<xs:attribute name="valuta" type="xs:string" default="euro"/>
+				</xs:extension>
+			</xs:simpleContent>
+		</xs:complexType>
+		
+		<xs:complexType name="TIngredienti">
+			<xs:sequence maxOccurs="unbounded">
+				<xs:element name="ingrediente" type="xs:string"/>
+			</xs:sequence>
+		</xs:complexType>
+								
+		<xs:complexType name="TFritto">
+			<xs:sequence>
+				<xs:element name="prezzo" type ="TPrezzo"/>
+				<xs:element name="descrizione" type="xs:string"/>
+			</xs:sequence>
+			<xs:attribute name="nome" type="xs:string"/>
+		</xs:complexType>
+		
+</xs:schema>

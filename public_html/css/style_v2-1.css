@@ -1,0 +1,730 @@
+html, body {
+	padding : 0em;
+	margin:0em;
+}
+
+body {
+	margin:auto;
+	background-color: #000000;
+	color:#ffffff;
+	background-image: url(../images/sfondo.jpg); 
+	background-attachment: fixed;
+	background-repeat: no-repeat;
+	background-position:top left;
+}
+
+a:link {
+	color: #991d1d;
+}
+
+	
+a:visited {
+	color: #4c0e0e;
+}
+
+#container {
+	max-width:1024px;
+	margin:auto;
+	font-family: Helvetica, Arial, sans-serif;
+	color: #000000; 
+	background-image:url(../images/container-bg.png);
+	background-repeat:repeat;
+	height: 100%;
+}
+
+.titles {
+	float:left;
+}
+
+.login-box {
+	float:right;
+        text-align:right;
+}
+
+.mainTitle {
+	background-color:#C00000;
+	background-image: url(../images/gradient.jpg);
+	background-repeat:repeat-x;
+	background-position:top left;
+	border-width:0em 0em 0.1em 0em;
+	border-style:solid;
+	border-color: #830000;
+	padding:1% 10px;
+}
+
+.mainTitle #logo {
+	background-color: #C00000;
+	margin-right:15px;
+	max-width:220px;
+	width:100%;
+	float:left;
+	margin-left: 9px;
+	border-width:2px;
+	border-style:solid;
+	border-color: #830000;
+}
+
+
+.mainTitle h1 {
+	font-size: 2.7em;
+	color:#FFFF00;
+	margin: 25px 0px 0px 0px;
+}
+	
+.mainTitle h2 {
+	font-size: 1.5em;
+	color:#FFFF00;
+	margin: 0px 0px 25px 0px;
+}
+
+.mainTitle form {
+	color:#fff;
+}
+
+.mainTitle p {
+	color:#fff;
+	margin:2px auto;
+}
+
+.mainTitle p a{
+	color:#ff0;
+}
+
+
+.clear-float {
+   height:0px;
+   clear:both;
+}
+
+.nav ul {
+	 margin:0px;
+	 list-style-type: none;
+	 font-size: 1.15em;
+	 font-weight: bold;
+	 background-color:#ffffff;
+	 padding: 0.5em;
+ }
+	 
+	 
+.nav ul li{
+	display:inline;
+	background-image: url(../images/pizza-icon.png);
+	background-repeat: no-repeat;
+	background-position: left center;
+	padding: 0.5em 1em 0.5em 23px;
+}
+	
+.nav ul li a:hover {
+	font-style: italic;
+}
+	
+	
+ .currentLink {
+	color:#000000;
+}
+
+.path {
+	font-size: 0.95em;
+	font-weight: normal;
+	border-width: 0.1em 0em;
+	border-style:solid;
+	border-color: #FBC095;
+	background-color:#FFEBCD;
+	color:#303030;
+	padding-left: 8px;
+}
+
+.path p {
+	margin:0;
+	padding:0.3em;
+}
+
+.path p span {
+	font-weight:bold;
+	font-style:italic;
+}
+
+#left-content {
+	float: left;
+	width:66%;
+	margin:15px 2%;
+	margin-right:0px; 
+	min-width:400px;
+}
+
+.users-amount{
+	text-align:right;
+}
+
+.user-box {
+	background-color:#fff;
+	border:1px solid #cc0000;
+	margin-bottom:10px;
+	padding:10px;
+}
+
+.user-box h1 {
+	margin-top:0px;
+}
+
+.msg-content {
+	background-image: url(../images/bg_msg.png);
+	background-position: right center;
+	background-repeat: no-repeat;
+	min-height:220px;
+	margin:auto 10px;	
+	padding-left:5%;
+	padding-right:200px;
+}
+
+.msg-content h1 {
+	padding-top:4px;
+}
+
+.basic-content {
+	padding:15px;
+}
+
+.basic-content form {
+	margin-bottom:10px;
+}
+
+.basic-content .quote-box {
+	background-image: url(../images/quote.png);
+	background-position: top left;
+	background-repeat: no-repeat;
+	min-height:75px;
+	background-color:#eee;
+	padding:10px 10px 0px 55px;
+	border:1px solid #8E0303;
+	margin-bottom:15px;
+}
+
+.basic-content .quote {
+	font-size:1.2em;
+	margin-top:0px;
+}
+
+.basic-content .quote textarea {
+	max-width:100%;
+}
+
+.basic-content .quote-details {
+	text-align:right;
+	margin-bottom:10px;
+}
+
+#categories{
+	 list-style-type: none;
+	 font-size: 1.3em;
+	 font-weight:bold;
+	 padding:0px;
+	 margin:0px;
+}
+
+#classiche{
+	background-image: url(../images/miniature/pizza.png);
+	background-position: right;
+	background-repeat: no-repeat;
+}
+
+#classiche:hover{
+	background-image: url(../images/miniature/pizza-hover.png);
+}
+
+#calzoni{
+	background-image: url(../images/miniature/calzone.png);
+	background-position: right;
+	background-repeat: no-repeat;
+}
+
+#calzoni:hover{
+	background-image: url(../images/miniature/calzone-hover.png);
+}
+
+
+#baguette{
+	background-image: url(../images/miniature/baguette.png);
+	background-position: right;
+	background-repeat: no-repeat;
+}
+
+#baguette:hover{
+	background-image: url(../images/miniature/baguette-hover.png);
+}
+
+#bianche{
+	background-image: url(../images/miniature/bianche.png);
+	background-position: right;
+	background-repeat: no-repeat;
+}
+
+#bianche:hover{
+	background-image: url(../images/miniature/bianche-hover.png);
+}
+
+#speciali{
+	background-image: url(../images/miniature/speciali.png);
+	background-position: right;
+	background-repeat: no-repeat;
+}
+
+#speciali:hover{
+	background-image: url(../images/miniature/speciali-hover.png);
+}
+
+#crostini{
+	background-image: url(../images/miniature/crostini.png);
+	background-position: right;
+	background-repeat: no-repeat;
+}
+
+#crostini:hover{
+	background-image: url(../images/miniature/crostini-hover.png);
+	background-position: right;
+	background-repeat: no-repeat;
+}
+
+#fritture{
+	background-image: url(../images/miniature/fritture.png);
+	background-position: right;
+	background-repeat: no-repeat;
+}
+
+#fritture:hover{
+	background-image: url(../images/miniature/fritture-hover.png);
+}
+
+#fritti{
+	background-image: url(../images/miniature/fritture.png);
+	background-position: right;
+	background-repeat: no-repeat;
+}
+
+#fritti:hover{
+	background-image: url(../images/miniature/fritture-hover.png);
+}
+
+
+#bufaline{
+	background-image: url(../images/miniature/bufaline.png);
+	background-position: right;
+	background-repeat: no-repeat;
+}
+
+#bufaline:hover{
+	background-image: url(../images/miniature/bufaline-hover.png);
+}
+
+
+
+#categories li a {
+	font-variant:small-caps;
+}
+
+#categories li {
+	border-color:#C00000;
+	border-style:solid;
+	border-width: 1px;
+	background-color:#FFEBCD;
+	float:left;
+	width:41%;
+	margin:1%;
+	padding:3%;
+}
+
+#categories li:hover {
+	border-color:#000;
+}
+
+#categories li:hover a {
+	color:#000;
+}
+
+#about-us {
+	clear:left;
+	padding: 20px 1% 16px 1%;
+}
+
+#about-us h1 { 
+	font-size:2em;
+	color:#C00000;
+	margin:0px;  
+}
+
+
+#about-us p {
+	margin:15px 0px;
+	font-size: 1.1em;
+}
+
+#party {
+	margin:0px 0px;
+	border-left:3px solid #cc0000;
+	border-right:3px solid #cc0000;
+	padding:5px 10px;
+	font-size: 1.1em;
+	background-image:url(../images/party-bg.png);
+	background-repeat:repeat;
+	text-align:center;
+}
+
+#party h2 {
+	color:#cc0000;
+	margin:0px;
+	font-size:18px;
+}
+
+#party p {
+	margin:0px;
+}
+
+/****** contatti #contacts ******/
+
+#contacts {
+	padding: 18px 20px 5px 15px; 
+	margin-bottom: 15px; 
+}
+
+#contacts h1 { 
+	font-size:2em;
+	color:#C00000;
+	margin:0px; 
+}
+
+
+#contacts p {
+	font-size: 1.1em;
+}
+
+#mapC, .cont-info {
+	float:left;
+}
+
+#mapC {
+	margin-right:10px;
+}
+
+#mapA, #mapT {
+	float:right;
+}
+
+.contact-intro {
+	text-align:center;
+}
+
+.contact {
+	background-color:#fff;
+	padding:10px 10px 5px 10px;
+	margin:10px;
+	border:1px solid #AC0000;
+}
+
+.contact hr {
+	clear:both;
+	width:0px;
+	height:0px;
+}
+
+.contact img {
+	border:1px solid #ccc;
+}
+
+.contact.even {
+	background-color:#AC0000;
+}
+
+.box {
+	float:right;
+	width:29%;
+	border-width: 2px;
+	margin: 20px 1% 5px 0px;
+	min-width:200px;
+}
+
+#news {
+	border-style:solid;
+	border-color:#C00000;
+	background-color:#FFEBCD;
+}
+
+#news h2 {
+	margin:0em;
+	padding: 0.2em 0.5em 0.1em;
+	background-color:#C00000;
+	background-image: url(../images/gradient2.png);
+	background-repeat:repeat-x;
+	background-position:top left;
+	text-align:center;
+	color:white;
+}
+
+#news p {
+	margin: 0px; 
+	padding-left:0.6em;
+	padding-top: 0.6em;
+	font-size:1.05em;
+}
+
+
+#news ul {
+	display: block;
+	list-style-type: disc;
+    margin: 5px 0px;
+    padding-left: 9%;
+	font-size:1.05em;
+}
+
+#news ul li {
+	background-repeat:no-repeat;
+	background-position:left top;
+	margin:0px;
+	padding-bottom:0.5em;
+	padding-left:0px;
+}
+
+
+#news ul li strong {
+	font-size: 1.1em;
+}
+
+
+#times {
+	text-align:center;
+	border-style: dotted;
+	border-color:#1E1E1E;
+	background-color:#FFF052; 
+	color:#1E1E1E;
+}
+
+
+#times p  {
+	font-size:1.05em;
+}
+
+
+#times p strong {
+	font-size:1.2em;
+}
+
+#img-home {
+	background-image: url(../images/pizza.jpg);
+	background-repeat:no-repeat;
+	height:200px;
+}
+
+.footer {
+	clear:both;	
+	background-color: #380000   ;
+	color:#FFFFFF;
+	font-size: 1em;
+	font-weight: bold;
+	padding: 10px; 
+	
+	
+}
+
+.footer p {
+	margin:0em;
+	padding-left: 15px; 
+	padding: 5px;
+}
+	
+	
+#imgHtmlValidCode   {
+	float:right;
+	margin: 12px 8px 5px 0px; 
+}
+
+
+#imgCssValidCode {
+	clear:right;
+	float:right;
+	margin: 0px 8px 3px 0px; 
+}
+
+.linkHelp:hover {
+	font-weight:bold;
+	font-style:italic;
+}
+
+
+#listino {
+	width:96%;
+	margin:auto 1%;
+	padding:1%;
+}
+	
+#listino h1 {
+	line-height: 1.5;
+	font-size:1.8em;
+    background-color:#AC0000;
+	padding-left:10px;
+	color:#fff;
+	margin-bottom:0px;
+}
+
+#listino ul {
+	padding-left:30px;	
+	padding-top:10px;
+	padding-bottom:5px;
+	margin:0px 0px 10px 0px;
+	background-color:#fff;
+	border:1px solid #AC0000;
+}
+
+#listino ul li {
+	margin-bottom:15px;
+}
+
+#listino .nome {
+	text-transform:uppercase;
+	font-weight:bold;
+}
+
+#listino em {
+	color:#666;
+}
+
+
+/*CSS PER PAGINA REGISTRAZIONE*/
+.content-header h1 {
+	font-size: 2em;
+	font-family:  Helvetica, Arial, sans-serif;
+	text-align: center;
+	margin-bottom:1%;
+	
+}
+
+.content-header h2 {
+	font-size: 1.5em;
+	font-family:  Helvetica, Arial, sans-serif;
+	text-align: center;
+	margin-top: 0%;
+	margin-bottom: 3%;
+}
+
+#registrazione {
+	background-color:#B00000;
+	color: white;
+	margin-bottom: 3%;
+	padding: 10px 0px;
+	
+}
+
+
+.aiuto {
+	font-size:1em!important;
+	font-style:italic;
+}
+
+.pulsante {
+	margin-bottom:0.5em;
+	margin-top:0.5em;
+	}
+	
+	
+#registrazione form {
+	float:right;
+	width:50%;
+}
+
+#collage {
+	background-image: url(../images/collage.jpg);
+	float:left;
+	background-repeat: no-repeat;
+	width:50%;
+	height:29em;
+	
+}
+	
+#registrazione fieldset {
+	padding-left: 5%;
+	border-width: 2px 0px 0px 0px;
+	border-color:#FFD700;
+	
+}
+
+fieldset div {
+	margin: 1.5% 0%;
+}
+
+#registrazione label {
+	font-family:  Helvetica, Arial, sans-serif;
+	font-size: 1.2em;
+}
+
+#registrazione p {
+	font-family:  Helvetica, Arial, sans-serif;
+	font-size: 1.2em;
+	margin:0em;
+}
+
+legend {
+	font-family:  Helvetica, Arial, sans-serif;
+	font-size: 1.5em;
+	color:yellow;
+}
+
+.basic-content legend {
+	color:#aa0000;
+}
+	
+
+#registrazione input {
+	width: 30%;
+	}
+
+#data_utente input {
+	width: 10%;
+	margin-right: 1%;
+	
+}
+
+#data_utente span {
+	font-size:1.2em;
+	}
+
+#numtel input{
+	width: 12%;
+	}
+	
+.elencoUtenti {
+	border-width: 0em;
+	}
+
+.noFieldset {
+	border-width: 0em;
+	padding:0em;
+	padding-bottom:1em;
+}
+
+
+#formProdotto legend{
+	color: black;
+	}
+	
+.spazio {
+	margin-top:8px;
+}
+
+#checkMsg, #hidden, .noLegend{
+	display:none;
+}
+
+.msgError, .msgErrorLogin {
+    background-color: #cc0000;
+    padding: 5px;
+    border: 2px solid #ffffff;
+    margin: 5px;
+    font-weight: bold;
+    color:#fff;
+}
+
+.msgErrorLogin {
+    text-align:center;
+}
+
+.msgError.show {
+    display:block!important;
+}

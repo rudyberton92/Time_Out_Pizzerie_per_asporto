@@ -1,0 +1,281 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="listino.xsl"?>
+<listino xmlns:xs="http://www.w3.org/2001/XMLSchema-instance" xs:schemaLocation="listino.xsd">
+
+	<categoria nome="Classiche" id="classiche">
+	
+		<pizza nome="Capricciosa">   
+			<prezzo valuta="euro">6.00</prezzo>
+			<ingredienti>
+				<ingrediente>pomodoro</ingrediente>
+				<ingrediente>mozzarella</ingrediente>
+				<ingrediente>prosciutto</ingrediente>
+				<ingrediente>funghi</ingrediente>
+				<ingrediente>carciofi</ingrediente>
+				<ingrediente>olive</ingrediente>
+			</ingredienti>
+		</pizza>
+		
+		<pizza nome="Carciofi">  
+			<prezzo valuta="euro">5.00</prezzo>
+			<ingredienti>
+				<ingrediente>pomodoro</ingrediente>
+				<ingrediente>mozzarella</ingrediente>
+				<ingrediente>carciofi</ingrediente>
+			</ingredienti>
+		</pizza>
+		
+		<pizza nome="Diavola">  
+			<prezzo valuta="euro">5.00</prezzo>
+			<ingredienti>
+				<ingrediente>pomodoro</ingrediente>
+				<ingrediente>mozzarella</ingrediente>
+				<ingrediente>salamino piccante</ingrediente>
+			</ingredienti>
+		</pizza>
+		
+		<pizza nome="Margherita">  
+			<prezzo valuta="euro">4.00</prezzo>
+			<ingredienti>
+				<ingrediente>pomodoro</ingrediente>
+				<ingrediente>mozzarella</ingrediente>
+			</ingredienti>
+		</pizza>
+		
+		<pizza nome="Marinara">  
+			<prezzo valuta="euro">3.50</prezzo>
+			<ingredienti>
+				<ingrediente>pomodoro</ingrediente>
+				<ingrediente>aglio</ingrediente>
+				<ingrediente>origano</ingrediente>
+			</ingredienti>
+		</pizza>
+		
+		<pizza nome="Melanzane">  
+			<prezzo valuta="euro">5.00</prezzo>
+			<ingredienti>
+				<ingrediente>pomodoro</ingrediente>
+				<ingrediente>mozzarella</ingrediente>
+				<ingrediente>melanzane</ingrediente>
+			</ingredienti>
+		</pizza>
+		
+		<pizza nome="Parigina">  
+			<prezzo valuta="euro">6.00</prezzo>
+			<ingredienti>
+				<ingrediente>pomodoro</ingrediente>
+				<ingrediente>mozzarella</ingrediente>
+				<ingrediente>prosciutto crudo</ingrediente>
+			</ingredienti>
+		</pizza>
+
+	
+<pizza nome="Romana">
+	 <prezzo valuta="euro">6.00</prezzo>
+	 <ingredienti>
+<ingrediente>pomodoro</ingrediente><ingrediente>mozzarella</ingrediente><ingrediente>acciughe</ingrediente><ingrediente>capperi</ingrediente><ingrediente>olio</ingrediente><ingrediente>origano</ingrediente>
+</ingredienti>
+	 </pizza>
+
+
+
+
+</categoria>
+	
+	<categoria nome="Calzoni" id="calzoni">
+	
+		<pizza nome="Calzone 1">  
+			<prezzo valuta="euro">5.50</prezzo>
+			<ingredienti>
+				<ingrediente>mozzarella</ingrediente>
+				<ingrediente>prosciutto</ingrediente>
+				<ingrediente>funghi</ingrediente>
+			</ingredienti>
+		</pizza>
+		
+		<pizza nome="Calzone 2">  
+			<prezzo valuta="euro">5.50</prezzo>
+			<ingredienti>
+				<ingrediente>mozzarella</ingrediente>
+				<ingrediente>porcini</ingrediente>
+				<ingrediente>brie</ingrediente>
+			</ingredienti>
+		</pizza>
+		
+		<pizza nome="Calzone 3">  
+			<prezzo valuta="euro">5.50</prezzo>
+			<ingredienti>
+				<ingrediente>mozzarella</ingrediente>
+				<ingrediente>pomodoro a fette</ingrediente>
+				<ingrediente>ricotta</ingrediente>
+			</ingredienti>
+		</pizza>
+		
+	
+
+</categoria>
+	
+	<categoria nome="Baguette" id="baguette">
+	
+		<pizza nome="Baguette 1">  
+			<prezzo valuta="euro">6.50</prezzo>
+			<ingredienti>
+				<ingrediente>mozzarella</ingrediente>
+				<ingrediente>brie</ingrediente>
+				<ingrediente>prosciutto crudo</ingrediente>
+			</ingredienti>
+		</pizza>
+		
+		<pizza nome="Baguette 2">  
+			<prezzo valuta="euro">6.50</prezzo>
+			<ingredienti>
+				<ingrediente>mozzarella</ingrediente>
+				<ingrediente>bufala</ingrediente>
+				<ingrediente>pomodorini</ingrediente>
+				<ingrediente>prosciutto cotto</ingrediente>
+			</ingredienti>
+		</pizza>
+		
+		<pizza nome="Baguette 3">  
+			<prezzo valuta="euro">6.50</prezzo>
+			<ingredienti>
+				<ingrediente>mozzarella</ingrediente>
+				<ingrediente>gorgonzola</ingrediente>
+				<ingrediente>radicchio</ingrediente>
+				<ingrediente>speck</ingrediente>
+			</ingredienti>
+		</pizza>
+		
+	</categoria>
+	
+	<categoria nome="Speciali" id="speciali">
+	
+		<pizza nome="Spensierata">  
+			<prezzo valuta="euro">8.50</prezzo>
+			<ingredienti>
+				<ingrediente>pomodoro</ingrediente>
+				<ingrediente>mozzarella</ingrediente>
+				<ingrediente>Asiago</ingrediente>
+				<ingrediente>funghi</ingrediente>
+				<ingrediente>prosciutto di Praga</ingrediente>
+			</ingredienti>
+		</pizza>
+		
+		<pizza nome="Estrosa">  
+			<prezzo valuta="euro">7.50</prezzo>
+			<ingredienti>
+				<ingrediente>pomodoro</ingrediente>
+				<ingrediente>mozzarella</ingrediente>
+				<ingrediente>rucola</ingrediente>
+				<ingrediente>arancia rossa</ingrediente>
+				<ingrediente>prosciutto crudo</ingrediente>
+			</ingredienti>
+		</pizza>
+		
+		<pizza nome="Carbonara">  
+			<prezzo valuta="euro">6.50</prezzo>
+			<ingredienti>
+				<ingrediente>pomodoro</ingrediente>
+				<ingrediente>mozzarella</ingrediente>
+				<ingrediente>uova</ingrediente>
+				<ingrediente>pancetta</ingrediente>
+				<ingrediente>pepe nero</ingrediente>
+			</ingredienti>
+		</pizza>
+		
+<pizza nome="Marco">
+ <prezzo valuta="euro">8.00</prezzo>
+ <ingredienti><ingrediente>pomodoro</ingrediente><ingrediente>mozzarella</ingrediente><ingrediente>porchetta</ingrediente><ingrediente>patate al forno</ingrediente><ingrediente>burrata</ingrediente></ingredienti>
+ </pizza>
+ 
+ <pizza nome="Giacomo">
+ <prezzo valuta="euro">8.00</prezzo>
+ <ingredienti><ingrediente>mozzarella</ingrediente><ingrediente>philadelphia</ingrediente><ingrediente>pomodorini</ingrediente><ingrediente>gamberetti</ingrediente></ingredienti>
+ </pizza>
+
+<pizza nome="Luigi">
+	 <prezzo valuta="euro">7.50</prezzo>
+	 <ingredienti>
+<ingrediente>pomodoro</ingrediente><ingrediente>mozzarella</ingrediente><ingrediente>misto di pesce fresco</ingrediente>
+</ingredienti>
+	 </pizza>
+</categoria>
+
+
+	
+
+
+	
+	<categoria nome="Le Bianche" id="bianche">
+	
+		<pizza nome="Tanta Roba">  
+			<prezzo valuta="euro">8.50</prezzo>
+			<ingredienti>
+				<ingrediente>mozzarella</ingrediente>
+				<ingrediente>fagioli</ingrediente>
+				<ingrediente>salsiccia</ingrediente>
+				<ingrediente>patate al forno</ingrediente>
+				<ingrediente>provola affumicata</ingrediente>
+			</ingredienti>
+		</pizza>
+		
+	</categoria>
+	
+	<categoria nome="Le Bufaline" id="bufaline">
+	
+		<pizza nome="Piuma">  
+			<prezzo valuta="euro">6.00</prezzo>
+			<ingredienti>
+				<ingrediente>pomodoro</ingrediente>
+				<ingrediente>mozzarella di bufala</ingrediente>
+				<ingrediente>olive nere</ingrediente>
+				<ingrediente>basilico</ingrediente>
+			</ingredienti>
+		</pizza>
+		
+	</categoria>
+	
+	<categoria nome="I Crostini" id="crostini">
+	
+		<pizza nome="Crostino 1">  
+			<prezzo valuta="euro">5.50</prezzo>
+			<ingredienti>
+				<ingrediente>pan carr&amp;egrave;</ingrediente>
+				<ingrediente>pomodoro</ingrediente>
+				<ingrediente>mozzarella</ingrediente>
+				<ingrediente>prosciutto</ingrediente>
+				<ingrediente>funghi</ingrediente>
+				<ingrediente>melanzane</ingrediente>
+			</ingredienti>
+		</pizza>
+		
+	</categoria>
+	
+	<categoria nome="I Fritti" id="fritti">
+	
+		<fritto nome="Patatine fritte">  
+			<prezzo valuta="euro">2.50</prezzo>
+			<descrizione>porzione piccola</descrizione>
+		</fritto>
+		
+		<fritto nome="Olive ascolane">  
+			<prezzo valuta="euro">2.00</prezzo>
+			<descrizione>8 pezzi</descrizione>
+		</fritto>
+		
+		<fritto nome="Crocchette di patate">  
+			<prezzo valuta="euro">2.50</prezzo>
+			<descrizione>8 pezzi</descrizione>
+		</fritto>
+
+<fritto nome="Anelli di cipolla">
+	 <prezzo valuta="euro">3.50</prezzo>
+	 <descrizione>8 pezzi</descrizione>
+	 </fritto>
+
+
+
+
+</categoria>
+	
+</listino>

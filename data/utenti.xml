@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="latin1"?>
+<utenti xmlns:xs="http://www.w3.org/2001/XMLSchema-instance" xs:schemaLocation="utenti.xsd"> 
+		
+	<utente>
+		<nome>Rudy</nome>
+		<cognome>Berton</cognome>
+		<amministratore>true</amministratore>
+		<username>rberton</username>
+		<datanascita>1992-04-04</datanascita>
+		<email>rudy.berton@gmail.com</email>
+		<password>adminuser</password> 
+		<telefono>049 9253120</telefono> 
+		<citta>Conselve</citta> 
+	</utente>
+	
+	<utente>
+		<nome>Marco</nome>
+		<cognome>Rubin</cognome>
+		<amministratore>true</amministratore>
+		<username>mrubin</username>
+		<datanascita>1993-08-15</datanascita>
+		<email>marco.rubin@gmail.com</email>
+		<password>123456</password> 
+		<telefono>049 9644122</telefono> 
+		<citta>Torreglia</citta> 
+	</utente>
+	
+	<utente>
+		<nome>Fabio Matteo</nome>
+		<cognome>Pavanello</cognome>
+		<amministratore>true</amministratore>
+		<username>fpavanello</username>
+		<datanascita>1993-10-07</datanascita>
+		<email>fabiomatteo.pavanello@gmail.com</email>
+		<password>123456</password> 
+		<telefono>049 9378242</telefono> 
+		<citta>Torreglia</citta> 
+	</utente>
+	
+	<utente>
+		<nome>Marco</nome>
+		<cognome>Roetta</cognome>
+		<amministratore>true</amministratore>
+		<username>mroetta</username>
+		<datanascita>1991-02-20</datanascita>
+		<email>marco.roetta@gmail.com</email>
+		<password>123456</password>
+		<telefono>049 9742883</telefono> 
+		<citta>Montegrotto Terme</citta> 
+	</utente>
+	
+	<utente>
+		<nome>Laura</nome>
+		<cognome>Rossi</cognome>
+		<amministratore>false</amministratore>
+		<username>lrossi</username>
+		<datanascita>1995-01-19</datanascita>
+		<email>laura.rossi@gmail.com</email>
+		<password>simpleuser</password> 
+		<telefono>049 9572215</telefono> 
+		<citta>Tribano</citta> 
+	</utente>
+	
+	
+	<utente>
+		<nome>Emma</nome>
+		<cognome>Bernardi</cognome>
+		<amministratore>false</amministratore>
+		<username>ebernardi</username>
+		<datanascita>1980-12-08</datanascita>
+		<email>emma.bernardi@gmail.com</email>
+		<password>123456</password> 
+		<telefono>049 9682192</telefono> 
+		<citta>Tramonte</citta> 
+	</utente>
+	
+
+	<utente>
+		<nome>Giacomo</nome>
+		<cognome>Bianchi</cognome>
+		<amministratore>false</amministratore>
+		<username>gbianchi</username>
+		<datanascita>1993-11-14</datanascita>
+		<email>gbianchi@gmail.com</email>
+		<password>password</password>
+		<telefono>049 877653</telefono>
+		<citta>Galzignano Terme</citta>
+	</utente>
+
+
+	<utente>
+		<nome> </nome>
+		<cognome> </cognome>
+		<amministratore>false</amministratore>
+		<username>usernameprova</username>
+		<datanascita>1900-01-01</datanascita>
+		<email>nome.cognome@gmail.com</email>
+		<password>password</password>
+		<telefono>123 456789</telefono>
+		<citta> </citta>
+	</utente>
+</utenti>

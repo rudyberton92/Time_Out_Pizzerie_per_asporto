@@ -1,0 +1,5 @@
+<p> Da ora puoi trovare anche queste nuove pizze...corri a provarle! </p> 
+<ul>
+<li><strong>TANTA ROBA</strong>: <abbr title="mozzarella">mozz.</abbr>, fagioli, salsiccia, patate al forno, provola <abbr title="affumicata"> aff.</abbr> </li>
+<li><strong>SPENSIERATA</strong>: <abbr title="pomodoro">pom.</abbr>, <abbr title="mozzarella">mozz.</abbr>, Asiago, funghi, <abbr title="prosciutto">prosc.</abbr> di Praga</li> 
+</ul>

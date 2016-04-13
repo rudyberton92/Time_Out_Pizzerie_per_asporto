@@ -1,0 +1,50 @@
+
+@media all and (max-width: 800px) {
+    	#mapA, #mapC, #mapT {
+		float:none;
+		display:block;
+		margin:0px auto;
+	}
+    	.contact img {
+		max-width:100%;	
+	}
+
+	.mainTitle {
+		text-align:center;
+	}
+	.mainTitle h1 {
+		margin: 5px 0px 0px 0px;
+	}
+	.mainTitle h2 {
+		margin: 0px 0px 10px 0px;
+	}
+    	#logo {
+		display:none;
+		float: none!important;
+	}
+	.titles {
+		float:none!important;
+	}
+	#collage {
+		background-position:top center;
+		width:100%;
+		background-size:cover;
+	}
+	#registrazione form {
+		float:none;
+		width:100%;
+	}
+	#left-content {
+		float:none;
+		width:auto;
+		margin-right:15px;
+	}
+	.box {
+		width:auto;
+		float:none;
+	}
+	img.box {
+		margin:20px auto;
+		display:block;
+	}
+}

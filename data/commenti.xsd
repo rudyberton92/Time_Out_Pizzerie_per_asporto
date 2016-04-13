@@ -1,0 +1,23 @@
+<?xml version="1.0"?>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema"
+elementFormDefault="qualified">
+
+	<xs:element name="commenti">
+		<xs:complexType>
+			<xs:sequence maxOccurs="unbounded">
+				<xs:element name="commento">
+					<xs:complexType>
+						<xs:sequence>
+							<xs:element name="ID" type="xs:int"/>
+							<xs:element name="utente" type="xs:string"/>
+							<xs:element name="testo" type="xs:string"/>
+							<xs:element name="sede" type="xs:string"/>
+							<xs:element name="data" type="xs:dateTime"/>
+						</xs:sequence>	
+					</xs:complexType>
+				</xs:element>
+			</xs:sequence>	
+		</xs:complexType>
+	</xs:element>
+	
+</xs:schema>
